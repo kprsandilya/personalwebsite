@@ -2,13 +2,13 @@ import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from 'lucide-react'
 import { Icons } from '../components/icons'
 
 export const DATA = {
-   name: 'Nyxb',
-   initials: 'DV',
+   name: 'Sandilya Kambhampati',
+   initials: 'SK',
    url: 'https://nyxb.nexus',
-   location: 'Miami, FL',
-   locationLink: 'https://www.google.com/maps/place/miami',
+   location: 'Fishers, Indiana',
+   locationLink: 'https://www.google.com/maps/place/Fishers,+IN/@39.9639955,-86.0516691,12z/data=!3m1!4b1!4m6!3m5!1s0x8814b377e061fed9:0x5c70915098c7503b!8m2!3d39.9568857!4d-86.0171742!16zL20vMHNseHA?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D',
    description:
-    'Fanatical open sourcerer, educator, indie hacker, and a dedicated white hat hacker',
+    'Aspiring Computer Science and Data Science student',
    summary:
     'I am the Co-Founder and CTO of [Joypix](https://joypix.io). \n\n'
     + 'Creator of [Nyxb UI](https://nyxbui.design), [Conventional Emoji Commits](https://conventional-emoji-commits.site) and [others](https://nyxb.nexus/projects).\n\n'
@@ -29,11 +29,11 @@ export const DATA = {
       'Typescript',
       'Node.js',
       'Python',
+      'R',
+      'Javascript',
+      'C',
       'Postgres',
-      'Docker',
-      'Kubernetes',
-      'Rust',
-      'C++',
+      'Firebase',
    ],
    navbar: [
       { href: '/', icon: HomeIcon, label: 'Home' },
@@ -42,19 +42,19 @@ export const DATA = {
       { href: '#contact', icon: PencilLine, label: 'Contact' },
    ],
    contact: {
-      email: 'hello@example.com',
-      tel: '+301456789',
+      email: 'kprsandilya@gmail.com',
+      tel: '+4632069053',
       social: {
          GitHub: {
             name: 'GitHub',
-            url: 'https://nyxb.link/github',
+            url: 'https://github.com/kprsandilya',
             icon: Icons.github,
 
             navbar: true,
          },
          LinkedIn: {
             name: 'LinkedIn',
-            url: 'https://nyxb.link/linkedin',
+            url: 'https://www.linkedin.com/in/kprsandilya/',
             icon: Icons.linkedin,
 
             navbar: true,
@@ -64,13 +64,13 @@ export const DATA = {
             url: 'https://nyxb.link/x',
             icon: Icons.x,
 
-            navbar: true,
+            navbar: false,
          },
          Youtube: {
             name: 'Youtube',
             url: 'https://nyxb.link/yt',
             icon: Icons.youtube,
-            navbar: true,
+            navbar: false,
          },
          email: {
             name: 'Send Email',
@@ -84,34 +84,61 @@ export const DATA = {
 
    work: [
       {
-         company: 'Nyxb Digital Solutions',
-         href: 'https://nyxb.nexus',
+         company: ' Bureau of Cyberspace and Digital Policy, U.S. Dept of State',
+         href: 'https://www.state.gov/bureaus-offices/deputy-secretary-of-state/bureau-of-cyberspace-and-digital-policy/',
          badges: [],
          location: 'Remote',
-         title: 'Full Stack Developer',
-         logoUrl: '/me.png',
-         start: 'Mar 2013',
-         end: 'Jun 2022',
+         title: 'Intern',
+         logoUrl: '/State.png',
+         start: 'Sept 2024',
+         end: 'Present',
+         description: '• Collaborating with U.S. diplomats on initiatives advancing U.S. cyber and digital policies globally\n • Contributing to global cybersecurity awareness campaigns and diplomatic efforts to counter cyber adversaries\n • Conducting open-source research and analysis to support the development and implementation of U.S. digital policies',
+      },
+      {
+         company: ' The Data Mine, Purdue University',
+         href: 'https://datamine.purdue.edu/',
+         badges: [],
+         location: 'West Lafayette, Indiana',
+         title: 'Undergraduate Data Science Researcher',
+         logoUrl: '/Purdue.svg',
+         start: 'Aug 2024',
+         end: 'Present',
          description:
-        'Specialized in developing dynamic web applications with Vue, Nuxt, React, and Next. Also experienced in creating cross-platform mobile apps with React Native and desktop applications with Tauri. Active in the open-source community, contributing to various projects.',
+        '• Utilizing Python and ISIMIP data to analyze netCDF data and map Midwest regions with future climate patterns\n• Mapping critical climate regions based on the Koppen-Geiger climate classifications using data visualization',
+      },
+      {
+         company: 'Texavi',
+         href: 'https://texavi.com/',
+         badges: [],
+         location: 'Remote',
+         title: 'Software Development Intern',
+         logoUrl: '/Texavi.png',
+         start: 'Jun 2024',
+         end: 'Aug 2024',
+         description:
+        '• Developed a dynamic content management system using WordPress for a UK-based archery organization, ensuring seamless updates and user engagement\n• Implemented email management strategies to streamline communication with the customer base, while optimizing web structure for improved user experience and navigation',
+      },
+      {
+         company: 'Firestone Ride Rite',
+         href: 'https://www.firestoneairide.com/automotive/aftermarket/',
+         badges: [],
+         location: 'Fishers, Indiana',
+         title: 'Engineering Intern',
+         logoUrl: '/Firestone.svg',
+         start: 'Jun 2022',
+         end: 'Jul 2022',
+         description:
+        '• Shadowed key departments across the warehouse such as Customer Service, Product Installation, and Manufacturing\n• Created Excel spreadsheets to test air springs, help with warranty procedures, and record information for future testing',
       },
    ],
    education: [
       {
-         school: 'Extensive Online Coursework',
-         href: 'https://www.udacity.com/?promo=year_end&coupon=JULY4&utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=12907755074_c_individuals&utm_term=124133496400&utm_keyword=udacity_e&gad_source=1',
-         degree: '',
-         logoUrl: '/udacity.png',
-         start: '2012',
-         end: '2023',
-      },
-      {
-         school: 'Abitur - University Entrance Qualification',
-         href: 'https://en.wikipedia.org/wiki/Hamburg',
-         degree: 'German High School Diploma (Abitur) from Hamburg',
-         logoUrl: '/abitur.png',
-         start: '2012',
-         end: '2013',
+         school: 'Purdue University',
+         href: 'https://en.wikipedia.org/wiki/Purdue_University',
+         degree: 'Bachelors in Science',
+         logoUrl: '/Purdue.svg',
+         start: '2023',
+         end: '2027',
       },
    ],
    projects: [
@@ -199,70 +226,6 @@ export const DATA = {
          location: 'Las Vegas, Nevada',
          description:
         'Participated in a live hacking event, uncovering security vulnerabilities in various web applications.',
-         image:
-        'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAATlBMVEVHcEwHBwcDAwMAAAAAAAAAAAB6enoXFxcAAAAAAAAAAAAAAAABAQETExPBwcEiIiKdnZ1DQ0NYWFjS0tL39/f///9JSUnFxcXFxcX///8JH38iAAAAGnRSTlMAlfLQSv8HlylrPzWs+y7qeuW1WQ4zep2JBO1Yg5cAAABnSURBVHgB3Yy1AcAwDARN5zDz/oOGm4AW8DWCB3WjjXVKAtBeFomCE+MkSQXRJxbMv5jlBuBXTAoQRJUaZLGsoKqk2rppu1YS+27otSTu+ChosaEYr200NC+xm+by2sp56tSLZfluG3lXBtEeABadAAAAAElFTkSuQmCC',
-         links: [
-            {
-               title: 'Event Details',
-               icon: <Icons.globe className="size-4" />,
-               href: 'https://www.hackerone.com/resources/hackerone/live-hacking-event-invitations-2022-guide',
-            },
-         ],
-      },
-      {
-         title: 'Bugcrowd LevelUp',
-         dates: 'April 10th, 2021',
-         location: 'Online',
-         description:
-        'Participated in a virtual event focused on enhancing the skills of bug bounty hunters.',
-         image:
-        'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAZlBMVEX////959/60MDxUgDxWgD5w6/yZx/yaCLxXgD3sJXxYAjyYQ/3poj+8+70gE7zeEDxWQD96+T1kGfyYxX1lnH0hFX72Mz3qIv70cPzczfyaiX5v6r+9/T/+vf4tJv2nXr0iV32nn1FGKDsAAAA5UlEQVR4AbWRR4KFIAxAY0uwR5mx1/tfcoRvGHT/3448IA2+TODxdmEUO6LkJRHJgerp0ozw3+eF78qYsKrqXCw3nmw1xQDwo2+pf8HRMZHqAHr3NB5AGE22qISCmRUaiZO4WdnLl0yWtavt39kGllXhLVcw1HI07DnJqeVqhc5+pFsrDy1yjkkVALGVlTR5y13b2IReq2kmBeX2t+wxJMSPbCIVddDERJitIsP4I6GZAzCfk/IWU+lLrmAjqXk4+ptmE6j1tO9kMnIHHmd+WSTUGqVHQaYkcAkPZlYO3uBF6AHf5Q/1ow5yOIAYvAAAAABJRU5ErkJggg==',
-         links: [
-            {
-               title: 'Event Details',
-               icon: <Icons.globe className="size-4" />,
-               href: 'https://www.bugcrowd.com/blog/how-to-succeed-in-bug-bounties-as-a-pentester/',
-            },
-         ],
-      },
-      {
-         title: 'HackerOne h@cktivitycon',
-         dates: 'September 14th - 16th, 2021',
-         location: 'Online',
-         description:
-        'Participated in a virtual conference for the hacker community, uncovering various security vulnerabilities in web applications.',
-         image:
-        'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAATlBMVEVHcEwHBwcDAwMAAAAAAAAAAAB6enoXFxcAAAAAAAAAAAAAAAABAQETExPBwcEiIiKdnZ1DQ0NYWFjS0tL39/f///9JSUnFxcXFxcX///8JH38iAAAAGnRSTlMAlfLQSv8HlylrPzWs+y7qeuW1WQ4zep2JBO1Yg5cAAABnSURBVHgB3Yy1AcAwDARN5zDz/oOGm4AW8DWCB3WjjXVKAtBeFomCE+MkSQXRJxbMv5jlBuBXTAoQRJUaZLGsoKqk2rppu1YS+27otSTu+ChosaEYr200NC+xm+by2sp56tSLZfluG3lXBtEeABadAAAAAElFTkSuQmCC',
-         links: [
-            {
-               title: 'Event Details',
-               icon: <Icons.globe className="size-4" />,
-               href: 'https://www.hackerone.com/hackerone-community-blog/get-invited-how-live-hacking-event-invites-have-changed',
-            },
-         ],
-      },
-      {
-         title: 'Bugcrowd Bug Bash',
-         dates: 'March 23rd - 24th, 2021',
-         location: 'San Francisco, California',
-         description:
-        'Participated in a Bug Bash event, uncovering security vulnerabilities in various applications.',
-         image:
-        'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAZlBMVEX////959/60MDxUgDxWgD5w6/yZx/yaCLxXgD3sJXxYAjyYQ/3poj+8+70gE7zeEDxWQD96+T1kGfyYxX1lnH0hFX72Mz3qIv70cPzczfyaiX5v6r+9/T/+vf4tJv2nXr0iV32nn1FGKDsAAAA5UlEQVR4AbWRR4KFIAxAY0uwR5mx1/tfcoRvGHT/3448IA2+TODxdmEUO6LkJRHJgerp0ozw3+eF78qYsKrqXCw3nmw1xQDwo2+pf8HRMZHqAHr3NB5AGE22qISCmRUaiZO4WdnLl0yWtavt39kGllXhLVcw1HI07DnJqeVqhc5+pFsrDy1yjkkVALGVlTR5y13b2IReq2kmBeX2t+wxJMSPbCIVddDERJitIsP4I6GZAzCfk/IWU+lLrmAjqXk4+ptmE6j1tO9kMnIHHmd+WSTUGqVHQaYkcAkPZlYO3uBF6AHf5Q/1ow5yOIAYvAAAAABJRU5ErkJggg==',
-         links: [
-            {
-               title: 'Event Details',
-               icon: <Icons.globe className="size-4" />,
-               href: 'https://www.bugcrowd.com/blog/how-to-succeed-in-bug-bounties-as-a-pentester/',
-            },
-         ],
-      },
-      {
-         title: 'HackerOne h1-702',
-         dates: 'August 3rd - 5th, 2020',
-         location: 'Las Vegas, Nevada',
-         description:
-        'Participated in one of the largest live hacking events, uncovering security vulnerabilities in various web applications.',
          image:
         'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAATlBMVEVHcEwHBwcDAwMAAAAAAAAAAAB6enoXFxcAAAAAAAAAAAAAAAABAQETExPBwcEiIiKdnZ1DQ0NYWFjS0tL39/f///9JSUnFxcXFxcX///8JH38iAAAAGnRSTlMAlfLQSv8HlylrPzWs+y7qeuW1WQ4zep2JBO1Yg5cAAABnSURBVHgB3Yy1AcAwDARN5zDz/oOGm4AW8DWCB3WjjXVKAtBeFomCE+MkSQXRJxbMv5jlBuBXTAoQRJUaZLGsoKqk2rppu1YS+27otSTu+ChosaEYr200NC+xm+by2sp56tSLZfluG3lXBtEeABadAAAAAElFTkSuQmCC',
          links: [

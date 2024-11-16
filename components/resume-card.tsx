@@ -46,7 +46,7 @@ export function ResumeCard({
       >
          <Card className="flex">
             <div className="flex-none">
-               <Avatar className="bg-muted-background m-auto size-12 border dark:bg-foreground">
+               <Avatar className="bg-slate-400 m-auto size-12 border dark:bg-slate-400">
                   <AvatarImage
                      src={logoUrl}
                      alt={altText}
